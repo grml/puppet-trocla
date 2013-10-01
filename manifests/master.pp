@@ -5,7 +5,7 @@
 # [Remember: No empty lines between comments and class definition]
 class trocla::master (
   $install_deps = false,
-  $use_rubygems = true,
+  $use_rubygems = false,
 ) {
 
   #Select if the upstream rubygems modules should be required for install
